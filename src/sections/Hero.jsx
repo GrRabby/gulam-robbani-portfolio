@@ -65,12 +65,37 @@ export default function Hero() {
               <div className="w-[420px] h-[420px] rounded-full bg-gradient-to-br from-accent/30 to-accent2/10 blur-2xl" />
             </div>
             <div className="relative w-[340px] h-[440px] md:w-[380px] md:h-[480px]">
-              <svg className="absolute inset-0 w-full h-full" viewBox="0 0 380 480">
-                <circle cx="190" cy="240" r="180" fill="none" stroke="rgba(59,130,246,0.15)" strokeWidth="1" />
-                <circle cx="190" cy="240" r="160" fill="none" stroke="rgba(59,130,246,0.1)" strokeWidth="1" />
-              </svg>
+
               <div className="absolute inset-0 flex items-end justify-center">
-                <img src={MyPhoto} alt="" />
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                  className="relative h-[460px] md:h-[520px] flex items-center justify-center"
+                >
+                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-[420px] h-[420px] rounded-full bg-gradient-to-br from-accent/30 to-accent2/10 blur-2xl" />
+                    </div>
+                    <svg className="absolute inset-0 w-full h-full" viewBox="0 0 380 480">
+                        <circle cx="190" cy="240" r="180" fill="none" stroke="rgba(59,130,246,0.15)" strokeWidth="1" />
+                        <circle cx="190" cy="240" r="160" fill="none" stroke="rgba(59,130,246,0.1)" strokeWidth="1" />
+                    </svg>
+                  <div className="relative w-[340px] h-[440px] md:w-[380px] md:h-[480px]">
+                    <div className="absolute inset-0 flex items-end justify-center">
+                      <motion.img
+                        src={MyPhoto}
+                        alt="Gulam Robbani"
+                        className="w-full h-full object-contain object-bottom"
+                        style={{
+                          WebkitMaskImage:
+                            'linear-gradient(to bottom, black 0%, black 80%, transparent 100%)',
+                          maskImage:
+                            'linear-gradient(to bottom, black 0%, black 80%, transparent 100%)',
+                        }}
+                      />
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </div>
           </motion.div>
