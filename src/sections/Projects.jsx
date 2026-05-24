@@ -13,7 +13,7 @@ const projects = [
     category: 'Desktop Application',
     name: 'Bizom Automizer',
     url : "https://drive.google.com/file/d/1ZDKXlBnZ3ijVwe2yr8_Kb2a_MvsHsufm/view",
-    imageUrl : "https://ibb.co.com/XfCkzsKk",
+    imageUrl : "/Bizom.png",
     desc: "𝐁𝐢𝐳𝐨𝐦 𝐀𝐮𝐭𝐨𝐦𝐢𝐳𝐞𝐫 is a desktop software designed to enhance the operational workflow of the retail intelligence platform Bizom.",
   },
   {
