@@ -18,10 +18,10 @@ export default function Cursor() {
     const ring = ringRef.current;
     if (!dot || !ring) return;
 
-    const xDot = gsap.quickTo(dot, 'x', { duration: 0.1, ease: 'power3.out' });
-    const yDot = gsap.quickTo(dot, 'y', { duration: 0.1, ease: 'power3.out' });
-    const xRing = gsap.quickTo(ring, 'x', { duration: 0.5, ease: 'power3.out' });
-    const yRing = gsap.quickTo(ring, 'y', { duration: 0.5, ease: 'power3.out' });
+    const xDot = gsap.quickTo(dot, 'x', { duration: 0.01, ease: 'power3.out' });
+    const yDot = gsap.quickTo(dot, 'y', { duration: 0.01, ease: 'power3.out' });
+    const xRing = gsap.quickTo(ring, 'x', { duration: 0.4, ease: 'power3.out' });
+    const yRing = gsap.quickTo(ring, 'y', { duration: 0.4, ease: 'power3.out' });
 
     let firstMove = true;
 
