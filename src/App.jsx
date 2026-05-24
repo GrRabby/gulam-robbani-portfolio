@@ -13,6 +13,7 @@ import FAQs from './sections/FAQs';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Cursor from './components/Cursor';
+import BackToTop from './components/BackToTop';
 
 function Loader({ onDone }) {
   const [progress, setProgress] = useState(0);
