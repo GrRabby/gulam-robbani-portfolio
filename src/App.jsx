@@ -95,6 +95,7 @@ export default function App() {
         <Projects />
         <FAQs />
         <Contact />
+        <BackToTop />
       </main>
 
       <Footer />
