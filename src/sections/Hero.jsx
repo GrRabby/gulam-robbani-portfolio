@@ -38,7 +38,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.5 }}
               className="mt-6 text-base md:text-lg text-soft leading-relaxed max-w-md"
             >
-              MERN Full-Stack Developer (React, Node.js, MongoDB) | Python Automation Engineer | PyQt Desktop Applications | REST API Integration & Automation Tool | Python | JavaScript(ES6+) | Entrepreneur
+              Full-Stack Developer (React, Next.js, Node.js, MongoDB) | Python Automation Engineer | PyQt Desktop Applications | Python | JavaScript(ES6+) | Entrepreneur
             </motion.p>
 
             <motion.div
