@@ -3,6 +3,13 @@ import SectionHeader from '../components/SectionHeader';
 
 const projects = [
   {
+    category: 'Full-Stack Web Application',
+    name: 'CarFleet',
+    url : "https://gym-craft-client.vercel.app/",
+    imageUrl : "https://private-user-images.githubusercontent.com/183578993/619000552-67af0e91-a303-49d5-8d4b-968711c10b53.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODQ4NTUzMjAsIm5iZiI6MTc4NDg1NTAyMCwicGF0aCI6Ii8xODM1Nzg5OTMvNjE5MDAwNTUyLTY3YWYwZTkxLWEzMDMtNDlkNS04ZDRiLTk2ODcxMWMxMGI1My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcyNFQwMTAzNDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hY2ViYWE0NWVhMzE2NDAzNmIxMTViMmI0NDc3NjY5NzFmOWRhYTM3M2VhODVlYTkyOGIyYzQ3YWQ4NzdlMWI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.NIMAhmqJDThpiBPxdBqojHBqDchaBqCo71vxig06060",
+    desc: 'A modern, full-stack car rental marketplace where users can browse, book, and list vehicles for rent. Built with a cockpit-inspired UI featuring molded buttons, telemetry-style readouts, and a premium automotive aesthetic.',
+  },
+  {
     category: 'SaaS Landing Page',
     name: 'CarFleet',
     url : "https://car-fleet-rho.vercel.app/",
@@ -15,13 +22,6 @@ const projects = [
     url : "https://drive.google.com/file/d/1ZDKXlBnZ3ijVwe2yr8_Kb2a_MvsHsufm/view",
     imageUrl : "/Bizom.png",
     desc: "𝐁𝐢𝐳𝐨𝐦 𝐀𝐮𝐭𝐨𝐦𝐢𝐳𝐞𝐫 is a desktop software designed to enhance the operational workflow of the retail intelligence platform Bizom.",
-  },
-  {
-    category: 'SaaS Landing Page',
-    name: 'Mango Library',
-    url : "https://mango-library.vercel.app/",
-    imageUrl : "https://github.com/user-attachments/assets/0f89c4ca-e1ac-473e-875c-79e6618e42a2",
-    desc: 'High-performance digital library platform built with the modern web stack. It digitizes the traditional library experience, offering users a seamless way to browse, search, and borrow books with a stunning user interface.',
   },
   {
     title: 'Tech Wave',
