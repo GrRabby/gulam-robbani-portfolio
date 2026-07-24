@@ -63,7 +63,8 @@ export default function Experience() {
                   <h3 className="text-lg md:text-xl font-semibold mb-1 group-hover:text-accent transition-colors">
                     {j.role}
                   </h3>
-                  <div className="text-sm text-soft flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <div className="text-sm text-soft flex flex-wrap items-center gap-x-3 gap-y-1 flex">
+                    <img src="/MGH.png" className="w-10 h-6"></img>
                     <span className="font-medium text-white">{j.company}</span>
                     <span className="text-muted">·</span>
                     <span className="text-muted">{j.location}</span>
